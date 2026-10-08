@@ -3,7 +3,7 @@ public class HelloWorld {
         System.out.println(getDetails("Chinthaka", 39));
     }
 
-    public static String getDetails(String name){
-        return "Hello " + name;
+    public static String getDetails(String name, int age){
+        return "Hello " + name + ", age " + age;
     }
 }
